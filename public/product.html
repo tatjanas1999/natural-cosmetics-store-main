@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Cosmetics | Home</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <section id="header"></section>
+
+  <section class="product-page section-mp">
+    <div class="product-box">
+      <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide">
+            <img class="image-one" src="img/product-f.png" />
+          </div>
+          <div class="nav">
+            <label for="img-6" class="prev">&#x2039;</label>
+            <label for="img-2" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+          <div class="slide">
+            <img class="image-two" src="img/product-f.png" />
+          </div>
+          <div class="nav">
+            <label for="img-1" class="prev">&#x2039;</label>
+            <label for="img-3" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-3" />
+        <li class="slide-container">
+          <div class="slide">
+            <img class="image-three" src="img/product-f.png" />
+          </div>
+          <div class="nav">
+            <label for="img-2" class="prev">&#x2039;</label>
+            <label for="img-4" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <li class="nav-dots">
+          <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+          <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+          <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        </li>
+      </ul>
+    </div>
+    <div class="product-box">
+      <div>
+        <h2>Product Name</h2>
+        <span>brand name</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ratione! Aut velit hic qui adipisci,
+          repudiandae impedit nam eligendi voluptate quis, itaque unde, doloribus dolores rerum? <br> Placeat sint non
+          sunt quidem necessitatibus molestias deserunt ducimus autem blanditiis mollitia repudiandae, culpa in dolore
+          itaque voluptatibus alias cum reprehenderit id officia magnam!</p>
+      </div>
+      <div>
+        <h2 class="product-price">$89</h2>
+      </div>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+
+      <div>
+        <p class="product-size">Select size:</p>
+        <input type="text" name="size" value="30ml" checked hidden id="30-size">
+        <label for="30-size" class="size-radio-btn check">30ml</label>
+        <input type="text" name="size" value="75ml" hidden id="75-size">
+        <label for="75-size" class="size-radio-btn">75ml</label>
+        <input type="text" name="size" value="100ml" hidden id="100-size">
+        <label for="100-size" class="size-radio-btn">100ml</label>
+      </div>
+      <div>
+        <input class="product-quantity" type="number" value="1">
+        <button class="btn add-to-cart" type="button">Add To Cart</button>
+        <button class="btn-two card-btn" type="button">Add To Wishlist</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="product section-mp">
+    <h2 class="product-category">Facial Skin Care</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button class="pre-btn"><i class="fa-solid fa-angle-left"></i></button>
+    <button class="nxt-btn"><i class="fa-solid fa-angle-right"></i></button>
+
+    <div class="product-container">
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/cream.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/cream.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/cream.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/cream.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/cream.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/cream.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="product section-mp">
+    <h2 class="product-category">Natural Perfume</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button class="pre-btn"><i class="fa-solid fa-angle-left"></i></button>
+    <button class="nxt-btn"><i class="fa-solid fa-angle-right"></i></button>
+
+    <div class="product-container">
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/perfume.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/perfume.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/perfume.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/perfume.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/perfume.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/perfume.png" alt="">
+          <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+          <span class="product-brand">brand name</span>
+          <h5 class="product-short-des">Lorem ipsum dolor sit.</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span class="actual-price">$89</span>
+        </div>
+        <a href="#"><i class="fas fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="mp"></footer>
+
+  <footer id="footer-2"></footer>
+
+  <!-- Swiper -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <script src="script/script.js"></script>
+  <script src="script/product.js"></script>
+  <script src="script/products.js"></script>
+
+</body>
+
+</html>

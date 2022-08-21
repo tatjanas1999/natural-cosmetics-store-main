@@ -1,0 +1,121 @@
+@import "style.css";
+
+.about-page,
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  background: var(--clr-beige);
+  position: relative;
+}
+
+.about-page .about-p-box,
+.contact-page .contact-p-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 500px;
+  width: 600px;
+  height: 70vh;
+}
+
+.about-page .about-p-box h6,
+.about-page-two .about-p-box-two h6 {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.about-page .about-p-box,
+.about-page-two .about-p-box-two h6 {
+  padding: 40px;
+}
+
+.about-page .about-p-box h2 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.about-page .about-img {
+  background: url("../img/about-p.jpg") no-repeat center center/cover;
+}
+
+.about-page .about-image {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  z-index: 1;
+  width: 30%;
+}
+
+.about-page-two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.about-page-two .about-p-box-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50vh;
+}
+
+.about-page-two .about-p-box-two .vertical-txt {
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+  font-size: 30px;
+  letter-spacing: 3px;
+  padding: 0 40%;
+}
+
+.about-page-two .wh-one {
+  min-width: 100px;
+  width: 200px;
+  background: #d7ecd7;
+}
+.about-page-two .wh-two {
+  min-width: 600px;
+  width: 1000px;
+  padding: 0 50px;
+  border: 2px solid var(--clr-dark-green);
+  border-radius: 0 10px 10px 0;
+}
+
+.about-page-two .about-p-box-two h6 {
+  font-size: 16px;
+}
+
+/* Galery Slider About Page */
+.gallery {
+  padding: 0 80px;
+}
+.gallery h2,
+.gallery p {
+  text-align: center;
+}
+
+.gallery p {
+  padding: 10px 0;
+}
+
+.gallery .gallery-slider .box {
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+  border: var(--border);
+  text-align: center;
+  cursor: pointer;
+}
+
+.gallery .gallery-slider .box .image {
+  padding: 1rem;
+}
+
+.gallery .gallery-slider .box .image img {
+  height: 25rem;
+}

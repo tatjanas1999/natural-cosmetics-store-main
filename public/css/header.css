@@ -1,0 +1,149 @@
+@import "style.css";
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 80px;
+  background: var(--clr-beige);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#header img {
+  width: 50px;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  color: var(--clr-dark);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  font-weight: 500;
+  transition: 0.3s ease;
+  position: relative;
+  font-size: 14px;
+}
+
+.bottom-line,
+.fa-bag-shopping,
+.fa-user {
+  color: var(--clr-dark);
+}
+
+.fa-bag-shopping,
+.fa-user {
+  font-size: 20px;
+}
+
+.bottom-line:hover,
+.fa-bag-shopping:hover,
+.fa-user:hover {
+  color: var(--clr-dark-green);
+}
+
+#navbar li .bottom-line:hover::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background: var(--clr-dark-green);
+  position: absolute;
+  bottom: -4px;
+  left: 5px;
+}
+
+.login-popup {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  top: 40px;
+  width: 100px;
+  transition: 0.5s;
+  border: none;
+  cursor: default;
+  color: var(--clr-dark);
+  text-align: center;
+}
+
+.login-popup::after {
+  content: "";
+  position: absolute;
+  top: -7.5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.text-popup {
+  font-size: 12px;
+  color: var(--clr-dark);
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: var(--clr-dark-green);
+  background: none;
+  border: 1px solid var(--clr-dark-green);
+  border-radius: 5px;
+}
+
+.login-btn:hover {
+  background: var(--clr-dark-green);
+  color: var(--clr-light);
+}
+
+.login-popup.active {
+  display: block;
+}
+
+.bag {
+  position: relative;
+}
+
+#cart-count-info {
+  position: absolute;
+  top: -12px;
+  right: -2px;
+  background: var(--clr-dark);
+  color: #fff;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mobile {
+  display: none;
+}
+
+#close {
+  display: none;
+}

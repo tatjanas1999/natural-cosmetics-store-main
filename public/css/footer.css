@@ -1,0 +1,90 @@
+@import "style.css";
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: var(--clr-light-beige);
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  color: var(--clr-dark);
+  text-decoration: none;
+}
+.mp {
+  padding: 20px 80px 0 80px;
+  margin: 20px 0 0 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+footer p strong {
+  color: var(--clr-dark);
+}
+
+footer a {
+  font-size: 13px;
+  color: var(--clr-medium);
+  margin-bottom: 10px;
+}
+
+.media {
+  margin-top: 20px;
+}
+
+.media i {
+  color: var(--clr-medium);
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.media i:hover {
+  font-size: 20px;
+  color: var(--clr-dark);
+}
+
+.install img {
+  width: 300px;
+  padding: 10px 0;
+}
+
+.row img {
+  width: 150px;
+}
+
+.row img:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  background: var(--clr-beige);
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+}
+
+.copyright p {
+  font-size: 15px;
+}
